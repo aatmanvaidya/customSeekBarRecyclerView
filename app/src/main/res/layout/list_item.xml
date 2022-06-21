@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hello"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        >
+
+        <com.zhouyou.view.seekbar.SignSeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ssb_min="1"
+            app:ssb_section_text_position="bottom_sides"
+            app:ssb_show_progress_in_float="false"
+            app:ssb_show_section_mark="false"
+            app:ssb_show_section_text="false"
+            app:ssb_show_sign="true"
+            app:ssb_show_thumb_text="false"
+            app:ssb_sign_arrow_height="4dp"
+            app:ssb_sign_arrow_width="0dp"
+            app:ssb_sign_border_size="0dp"
+            app:ssb_sign_color="@color/color_blue"
+            app:ssb_sign_show_border="false"
+            app:ssb_sign_width="30dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
