@@ -40,5 +40,4 @@
             app:ssb_sign_width="30dp" />
     </RelativeLayout>
 
-
 </LinearLayout>

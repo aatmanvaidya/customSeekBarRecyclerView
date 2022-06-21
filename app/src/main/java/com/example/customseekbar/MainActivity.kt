@@ -21,18 +21,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        seek_bar.setOnProgressChangedListener(object : OnProgressChangedListener {
-//            override fun onProgressChanged(signSeekBar: SignSeekBar,progress: Int,progressFloat: Float, fromUser: Boolean) {
-//                progressText.text = seek_bar.progress.toString()
-//            }
-//
-//            override fun getProgressOnActionUp(signSeekBar: SignSeekBar,progress: Int,progressFloat: Float) {
-//            }
-//
-//            override fun getProgressOnFinally(signSeekBar: SignSeekBar,progress: Int,progressFloat: Float,fromUser: Boolean) {
-//            }
-//        })
-
         initRecyclerView()
         addDataSet()
     }
